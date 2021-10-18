@@ -3,9 +3,9 @@ entries:
   cosigned:
   - apiVersion: v2
     appVersion: v1.2.0
-    created: "2021-09-16T13:55:27.883181575Z"
+    created: "2021-10-18T08:31:48.864008477Z"
     description: The Helm chart for Cosigned
-    digest: edfdac0bd855fae835e10f0dcd4cc67238337cdf0c09569bd9a16d898279a7c1
+    digest: c90523473ce1e2e8df116e37a43ad6f745a08736bbe49bd5e3df71f3fda039a6
     home: https://github.com/sigstore/cosign
     maintainers:
     - name: dlorenc
@@ -15,15 +15,16 @@ entries:
     - https://github.com/sigstore/cosign
     type: application
     urls:
-    - https://github.com/cpanato/helm-charts-1/releases/download/cosigned-v0.0.3-dev/cosigned-v0.0.3-dev.tgz
-    version: v0.0.3-dev
+    - https://github.com/cpanato/helm-charts-1/releases/download/cosigned-v0.0.4/cosigned-v0.0.4.tgz
+    version: v0.0.4
   rekor:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-09-16T13:55:28.01269409Z"
-    description: Rekor is an API based server for validation and a transparency log
-      for storage
-    digest: ff6fb35dc7397d3596ac6132f8211ae066ac59d3602638dbb99a4ed3eb6e4af3
+    created: "2021-10-18T08:31:49.014161976Z"
+    description: Part of the sigstore project, Rekor is a timestamping server and
+      transparency log for storing signatures, as well as an API based server for
+      validation
+    digest: 0ebc898c35feba374810fa18814ffd12268a0c94b5d3151526e73719f83bb8e5
     home: https://sigstore.dev/
     keywords:
     - security
@@ -34,6 +35,6 @@ entries:
     - https://github.com/sigstore/rekor
     type: application
     urls:
-    - https://github.com/cpanato/helm-charts-1/releases/download/rekor-0.2.1/rekor-0.2.1.tgz
-    version: 0.2.1
-generated: "2021-09-16T13:55:28.012706491Z"
+    - https://github.com/cpanato/helm-charts-1/releases/download/rekor-0.2.2/rekor-0.2.2.tgz
+    version: 0.2.2
+generated: "2021-10-18T08:31:49.014168176Z"
