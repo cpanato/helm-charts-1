@@ -4,13 +4,13 @@ entries:
   - annotations:
       artifacthub.io/images: |
         - name: cosigned
-          image: gcr.io/projectsigstore/cosigned:v1.2.1@sha256:44c89910a4a480fe3d9ab1733d09a357e7fd681cfc1d964752ffe1b83600cb9f
+          image: gcr.io/projectsigstore/cosigned:v1.3.1@sha256:6b7dad33dfee585a9dd0bb13c9d5fd5e96bb92267628a97f4131f900aab300b6
       artifacthub.io/license: Apache-2.0
     apiVersion: v2
-    appVersion: v1.2.1
-    created: "2021-10-28T14:53:10.29280381Z"
+    appVersion: v1.3.1
+    created: "2021-11-21T15:41:19.451294773Z"
     description: The Helm chart for Cosigned
-    digest: 6cdd0393304aa9134210099b8ab546c1787e04b262a17a0541cfd0c36fe0586f
+    digest: 990c156b7ce8de29bb810e017ce2bd11dfdfd67692dd354774e2e4f0290f42a7
     home: https://github.com/sigstore/cosign
     maintainers:
     - name: dlorenc
@@ -20,8 +20,8 @@ entries:
     - https://github.com/sigstore/cosign
     type: application
     urls:
-    - https://github.com/cpanato/helm-charts-1/releases/download/cosigned-v0.0.6/cosigned-v0.0.6.tgz
-    version: v0.0.6
+    - https://github.com/cpanato/helm-charts-1/releases/download/cosigned-v0.1.4/cosigned-v0.1.4.tgz
+    version: v0.1.4
   rekor:
   - annotations:
       artifacthub.io/images: |
@@ -35,14 +35,18 @@ entries:
           image: gcr.io/trillian-opensource-ci/db_server@sha256:e21b597eedb84063c7d958b6548e62ff1531a2ce7c024f366ccb4fb43163218c
         - name: redis
           image: docker.io/redis@sha256:0a0d563fd6fe5361316dd53f7f0a244656675054302567230e85eb114f683db4
+        - name: curlimages/curl
+          image: docker.io/curlimages/curl@sha256:1a2209a10a11295c3ab6952d1278a9ea2ce0d20e33fdeaeb24d7a4586767c825
+        - name: toolbelt/netcat
+          image: docker.io/toolbelt/netcat@sha256:a88ddd1f371229e7ea40a200a02145ddd48af602a028e0657e0ba6a18c58dbaf
       artifacthub.io/license: Apache-2.0
     apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-10-28T14:53:10.427779973Z"
+    created: "2021-11-21T15:41:19.579611602Z"
     description: Part of the sigstore project, Rekor is a timestamping server and
       transparency log for storing signatures, as well as an API based server for
       validation
-    digest: e8a8f5d00eafc7dcf4fb793cd5c8900ddde40051c5e9ce13d2af808ed39f42ba
+    digest: 27b4728010924cd4677a19487f606205a29f3764a2106a4b91fa9324cca5ac38
     home: https://sigstore.dev/
     keywords:
     - security
@@ -54,6 +58,6 @@ entries:
     - https://github.com/sigstore/rekor
     type: application
     urls:
-    - https://github.com/cpanato/helm-charts-1/releases/download/rekor-0.2.3/rekor-0.2.3.tgz
-    version: 0.2.3
-generated: "2021-10-28T14:53:10.427790173Z"
+    - https://github.com/cpanato/helm-charts-1/releases/download/rekor-0.2.6/rekor-0.2.6.tgz
+    version: 0.2.6
+generated: "2021-11-21T15:41:19.579616802Z"
