@@ -4,13 +4,13 @@ entries:
   - annotations:
       artifacthub.io/images: |
         - name: cosigned
-          image: gcr.io/projectsigstore/cosigned:v1.3.1@sha256:6b7dad33dfee585a9dd0bb13c9d5fd5e96bb92267628a97f4131f900aab300b6
+          image: gcr.io/projectsigstore/cosigned:v1.4.0@sha256:e8cab7aaa67116da504d5eeab88d2094faf7592530c244e8bc3760a93f989b31
       artifacthub.io/license: Apache-2.0
     apiVersion: v2
-    appVersion: v1.3.1
-    created: "2021-11-21T15:41:19.451294773Z"
+    appVersion: v1.4.0
+    created: "2021-12-10T17:35:29.945419557Z"
     description: The Helm chart for Cosigned
-    digest: 990c156b7ce8de29bb810e017ce2bd11dfdfd67692dd354774e2e4f0290f42a7
+    digest: 3851336be31fad5caa15a799f8657b423d999e1c855214c5386a3c5c80e6e5a0
     home: https://github.com/sigstore/cosign
     maintainers:
     - name: dlorenc
@@ -20,8 +20,8 @@ entries:
     - https://github.com/sigstore/cosign
     type: application
     urls:
-    - https://github.com/cpanato/helm-charts-1/releases/download/cosigned-v0.1.4/cosigned-v0.1.4.tgz
-    version: v0.1.4
+    - https://github.com/cpanato/helm-charts-1/releases/download/cosigned-v0.1.7/cosigned-v0.1.7.tgz
+    version: v0.1.7
   rekor:
   - annotations:
       artifacthub.io/images: |
@@ -42,11 +42,11 @@ entries:
       artifacthub.io/license: Apache-2.0
     apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-11-21T15:41:19.579611602Z"
+    created: "2021-12-10T17:35:30.113495478Z"
     description: Part of the sigstore project, Rekor is a timestamping server and
       transparency log for storing signatures, as well as an API based server for
       validation
-    digest: 27b4728010924cd4677a19487f606205a29f3764a2106a4b91fa9324cca5ac38
+    digest: 977b2e3a95a734531c67fa074af6f6f84b776bc3f0a044b57f5e40abd8baf9af
     home: https://sigstore.dev/
     keywords:
     - security
@@ -58,6 +58,6 @@ entries:
     - https://github.com/sigstore/rekor
     type: application
     urls:
-    - https://github.com/cpanato/helm-charts-1/releases/download/rekor-0.2.6/rekor-0.2.6.tgz
-    version: 0.2.6
-generated: "2021-11-21T15:41:19.579616802Z"
+    - https://github.com/cpanato/helm-charts-1/releases/download/rekor-0.2.7/rekor-0.2.7.tgz
+    version: 0.2.7
+generated: "2021-12-10T17:35:30.113500478Z"
